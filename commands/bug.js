@@ -17,7 +17,7 @@ module.exports = {
       .addField("Additional Information", "Any additional context can help diagnose the issue. The more info the better!")
       .addField(
         "Bug Template",
-        "```**Issue:** \n> \n**Steps to Reproduce:**\n> \n**Expected Behaviour:**\n> \n**Teamcraft Version - Browser / Desktop Client**\n> \n**Additional Information:**\n> \n**Screenshots:**\n\nCopy this and fill next to the > ```"
+        "```**Issue:** \n> \n**Steps to Reproduce:**\n> \n**Expected Behaviour:**\n> \n**Additional Information:**\n> \n**Screenshots:**\n\nCopy this and fill next to the > ```"
       );
     return interaction.reply({ embeds: [consoleEmbed] });
   },
